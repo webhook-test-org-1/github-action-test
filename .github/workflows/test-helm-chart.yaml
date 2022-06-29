@@ -29,4 +29,4 @@ jobs:
 
       - name: Run helm template
         run: |
-          helm template -f $HELM_CHART_DIR/values.yaml . 1> /dev/null
+          helm template -f $HELM_CHART_DIR/values.yaml $HELM_CHART_DIR 1> /dev/null
