@@ -3,7 +3,7 @@ name: test-chart
 description: A Helm chart for Kubernetes
 
 maintainers:
-    - name: LDHo
+  - name: LDHo
 
 # A chart can be either an 'application' or a 'library' chart.
 #
