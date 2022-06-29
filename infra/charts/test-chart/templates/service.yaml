@@ -11,12 +11,6 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
-    - port: 9090
-      targetPort: TCP
-      name: bubu
-    - port: 9091
-      targetPort: TCP
-      name: test
 
   selector:
     {{- include "test-chart.selectorLabels" . | nindent 4 }}
